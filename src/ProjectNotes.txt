@@ -1,0 +1,30 @@
+//Create react app
+npx create-react-app my-app
+
+//axios for calling api
+npm install axios
+
+//React router dom for routing
+npm i react-router-dom
+
+//CSS syntemic UI used cdn
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+
+//Install reduxnpm 
+install redux 
+
+//install react-redux 
+npm install react-redux
+
+//Create folder structure
+src ==>
+    containers
+    redux==>
+        actions==>  //to create actions 
+            productsActions,js
+        reducers==>  //to create reducers
+            index.js   //route reducer
+            productReducers
+        constants==>   //to create constants
+            action-types.js
+        store.js    //to store all the data
